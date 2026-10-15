@@ -1,0 +1,20 @@
+/* Checkmate Cinema (YouTube channel). Set 11 Oct 2026 from the brand kit and the
+   reference channel @analysedlikechess. Grade colours = game-review palette used in the videos. */
+@font-face{font-family:"Anton";src:url("logo/Anton-Regular.ttf");}          /* OFL */
+@font-face{font-family:"Inter";src:url("logo/Inter.ttf");font-weight:100 900;} /* OFL */
+:root{
+  --cc-night:#141312;   /* deepest ground, banner edges */
+  --cc-ink:#262421;     /* brand charcoal: avatar disc, cards */
+  --cc-panel:#2c2925;   /* raised panel, spotlight centre */
+  --cc-gold:#E8B04A;    /* THE accent: "CINEMA", film ring, knight */
+  --cc-white:#FFFFFF;   /* wordmark, white king, badge symbols */
+  --cc-mist:#B9B4AC;    /* tagline, secondary text on dark */
+
+  /* grade colours (in-video badges, thumbnails) */
+  --cc-brilliant:#26C2A3; --cc-great:#5C8BB0; --cc-best:#81B64C; --cc-excellent:#96BC4B;
+  --cc-good:#95AF8A; --cc-book:#A88764; --cc-inaccuracy:#F0C15C; --cc-mistake:#E58F2A; --cc-blunder:#D63A2F;
+
+  --font-display:"Anton",Impact,sans-serif;   /* wordmark, titles: always uppercase */
+  --font-text:"Inter",Arial,sans-serif;       /* tagline, cards, subtitles */
+  --radius-badge:50%; --radius-card:14px;
+}

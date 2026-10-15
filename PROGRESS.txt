@@ -1,0 +1,41 @@
+BRILLIANT OR BLUNDER (Isaac) - PROGRESS as of 12 Oct 2026, about 11:30 AM PHT
+
+CHANNEL
+- YouTube: Brilliant or Blunder, @BrilliantOrBlunderTV. Name, handle, avatar and description are live.
+- Banner: still the old pixel "subscribe" banner (from @analysedlikechess). Swap to
+  Downloads/Brilliant or Blunder - REBRAND/BANNER - Brilliant or Blunder 2560x1440.jpg
+
+EP01 - Silence of the Lambs (Hannibal vs Clarice)
+- Approved by Isaac. Title he picked: "Hannibal vs Clarice: Every Move Rated Like Chess"
+- Current version v4 (8:43): cold open, narrator intro (Daniel, British), 30 graded moves,
+  Miss Mofet ending, narrator recap over the scoreboard.
+- Review link: https://checkmate-cinema-ep01-review.vercel.app (video + voice options section)
+- Upload files: Downloads/Checkmate Cinema EP01 - Silence of the Lambs/
+    EP01 v4 FINAL with narrator - Brilliant or Blunder - Hannibal vs Clarice.mp4
+    EP01 title, description, chapters (Brilliant or Blunder v4).txt
+    EP01 thumbnail CLICKBAIT A - She Blundered.jpg (lead) / B - He Read Her.jpg
+- Build: ep01-silence-of-the-lambs/build4.py, render with --workers 2 (RAM is tight).
+
+NARRATOR VOICE (waiting on Isaac)
+- Isaac: Daniel/George sound the same and a bit AI. Wants an AMERICAN, true crime voice with
+  the pacing of his reference clip (Downloads/WhatsApp Audio 2026-10-12 at 11.20.26 AM.mpeg):
+  short sentences, lots of pauses, about 145 words per minute.
+- Scripts rewritten in that style: ep01-silence-of-the-lambs/vo/intro_v2.txt, recap_v2.txt
+- Shortlist on the review page: 1 Verdict, 2 Investigative & Grounded, 3 True Crime & Horror,
+  4 Liz, 5 Lauren. Reply 13 sent asking him to pick a number.
+- 12 Oct: Isaac picked 2, Investigative & Grounded (KaITpqO5JB2AwhP0ySuz). Reply 14 drafted, not sent.
+- BLOCKER: the ElevenLabs account (key used for Isaac's Prodigy Pulse) has 2 credits left.
+  New intro + recap needs about 80 credits.
+- When he picks: generate VO, set INTRO_DUR to the new length, re-render, compress about 1250k,
+  replace review-site ep01.mp4, redeploy, copy full file to Downloads.
+
+NEXT
+1. Isaac picks a voice, then redo EP01 narration (needs credits).
+2. Swap the YouTube banner.
+3. Upload EP01 as Unlisted, wait for the copyright check, then Public.
+4. EP02 A Few Good Men ("Kaffee vs Jessup"), source in ep02-a-few-good-men/source/scene_full.mp4.
+   Use the same narrator + punchy script style. Then Game of Thrones (Isaac to suggest a scene),
+   The Sopranos (Tony vs Melfi / Johnny Sack) later.
+5. Two Shorts from EP01.
+
+CLIENT REPLIES: replies/ folder, reply 1 to 13 (all sent by Judah).
